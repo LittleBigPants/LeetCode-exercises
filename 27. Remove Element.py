@@ -11,4 +11,4 @@ class Solution:
             else:
                 i += 1
 
-        print(nums)
+        return len(nums)
