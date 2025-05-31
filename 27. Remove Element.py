@@ -12,3 +12,10 @@ class Solution:
                 i += 1
 
         return len(nums)
+
+# Example usage:
+# sol = Solution()
+# nums = [3, 2, 2, 3]
+# val = 3
+# result = sol.removeElement(nums, val)
+# print(result)  # Output: 2
