@@ -26,3 +26,15 @@ haystack = "hello"
 needle = "ll"
 result = solution.strStr(haystack, needle)
 print(result)  # Output: 2
+
+
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+       return haystack.find(needle)
+
+# Example usage:
+solution = Solution()
+haystack = "hello"
+needle = "ll"
+result = solution.strStr(haystack, needle)
+print(result)  # Output: 2
